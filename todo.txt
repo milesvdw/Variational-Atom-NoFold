@@ -1,0 +1,61 @@
+TODO:
+-> FEATURE: filter dimension sidebar
+-> FEATURE: support multiple editing windows
+-> BUG: dimension sidebar doesn't show up first time
+-> QUESTION: what should happen when the users 'deletes' a choice while one of the alternatives is hidden?
+
+
+
+
+
+
+
+
+DONE:
+
+3/27/2017
+X BUG: delete choices with only one alternative doesn't remove (+) button
+X BUG: backspacing moves up choices
+X BUG: inserting a choice above single-alternative choices messes up whitespace
+X TWEAK: (+) more grey
+X TWEAK: "fill in" text change to blank line
+
+3/17/2017
+X BUG: choices on the same level all have the same color scheme, which matches the last one
+X BUG: insert nested dimension breaks everything
+X BUG: can't insert dimensions on span boundaries
+
+3/15/2017
+X BUG: can't insert text at the first line of the outer dimension when an inner dimension starts immediately
+
+3/11/2017
+X VETOED: remove blank lines at the beginning of choices
+
+3/10/2017
+X TWEAK: rearrange UI elements
+
+3/4/2017
+X BUG: can't remove only one part of a choice
+
+3/3/2017
+X BUG: 'insert alternate alternative' button for else branches isn't attached quite right.
+X TWEAK: stack radio buttons vertically
+X TWEAK: reorder radio buttons
+X TWEAK: (+) filtered out appropriately
+X BUG: filtering not doing anything
+X FEATURE: remove alternative
+
+2/28/2017
+X BUG: can't insert 'when unselected'
+X BUG: inserting a new choice messes things up somehow
+
+2/26/2017
+X BUG: adding text at a junction duplicates it
+X BUG: adding text at the end of an alternative doesn't leave whitespace after syntax
+X BUG: alternative selections don't persist in sidebar
+
+2/21/2017
+X BUG: classList undefined error
+X BUG: checkboxes are all exclusive
+X BUG: alternative adder for ifndefs wrong color
+X BUG: can't add alternate alternative more than once per run
