@@ -1,13 +1,13 @@
 {
-  "name": "variational-java",
+  "name": "VAtomNoFold",
   "main": "./lib/variational-java",
-  "version": "0.7.3",
+  "version": "0.0.0",
   "description": "An editor plugin supporting Variational Java development",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "variational-java:toggle"
   },
-  "repository": "https://github.com/milesvdw/VJava-Atom",
+  "repository": "https://github.com/milesvdw/Variational-Atom-NoFold",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
